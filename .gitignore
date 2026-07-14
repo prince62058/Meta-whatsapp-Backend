@@ -56,13 +56,14 @@ setup*.js
 export*.js
 toggleMaintenance.js
 triggerForceUpdate.js
-server.js
+/server.js
 
 # One-off scripts inside src/ (keep app.js + server.js + folders only)
-src/check*.js
-src/diagnose*.js
-src/find*.js
-src/repair*.js
-src/test*.js
-src/unlink*.js
-src/updateCompany.js
+/src/check*.js
+/src/diagnose*.js
+/src/find*.js
+/src/repair*.js
+/src/test*.js
+/src/unlink*.js
+/src/updateCompany.js
+src/controllers/s.json
