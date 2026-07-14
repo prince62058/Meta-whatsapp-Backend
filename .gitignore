@@ -1,0 +1,68 @@
+node_modules/
+*.log
+combined.log
+error.log
+dist/
+.DS_Store
+*.zip
+
+# Secrets / environment (use env.example)
+.env
+.env.*
+!.env.example
+env
+!env.example
+
+# Firebase service account (use firebase.json.example)
+src/config/firebase.json
+
+# Local / one-off junk — never ship
+scratch/
+scripts/
+temp/
+tmp/
+img/
+public/exports/
+.code-review-graph/
+graphify-out/
+*.csv
+*.xlsx
+All_Users_With_Business.*
+
+# Stray uploaded media in source
+src/controllers/*.jpg
+src/controllers/*.jpeg
+src/controllers/*.png
+src/controllers/*.gif
+src/controllers/*.webp
+src/controllers/*.mp4
+src/controllers/*.mov
+
+# Root one-off debug / maintenance scripts
+check*.js
+debug*.js
+find*.js
+fix*.js
+test*.js
+update*.js
+linkMetaAd.js
+migrate-data.js
+premiumPlan.js
+refresh_token.js
+removeDuplicateAd.js
+globalSanitizeUrls.js
+search*.js
+setup*.js
+export*.js
+toggleMaintenance.js
+triggerForceUpdate.js
+server.js
+
+# One-off scripts inside src/ (keep app.js + server.js + folders only)
+src/check*.js
+src/diagnose*.js
+src/find*.js
+src/repair*.js
+src/test*.js
+src/unlink*.js
+src/updateCompany.js
