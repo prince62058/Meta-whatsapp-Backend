@@ -1,12 +1,21 @@
-# LeadKart — Full Stack Project
+# MarketingKart.ai — Full Stack Project
 
 ## Project Overview
 
-LeadKart is a marketing automation platform with three surfaces:
+**MarketingKart.ai** (`marketingkart.in`) is a marketing automation platform with three surfaces:
 
 1. **Backend API** (this repo) — Node.js/Express, MongoDB, Redis, BullMQ
 2. **Mobile App** (to be built) — React Native CLI, WhatsApp Marketing + Meta Ads modules
 3. **Admin Panel** (to be built) — React JS, ops management for WhatsApp & Ads
+
+## Brand
+
+- **Name:** MarketingKart.ai
+- **Domain:** marketingkart.in
+- **Logo:** `attached_assets/WhatsApp_Image_2026-07-13_at_13.52.55_1784057667107.jpeg`
+  - "MK" lettermark with orange-red gradient (left-pointing play + right angle)
+  - Wordmark: "MarketingKart" dark navy + ".ai" in red/orange
+- **Brand colors:** Orange-red gradient (`#FF4500` → `#FF8C00`) for logo; dark navy `#1A1F3C` for wordmark text
 
 ## Architecture
 
@@ -26,7 +35,9 @@ LeadKart is a marketing automation platform with three surfaces:
 
 ## Design System
 
+**Brand name in UI:** MarketingKart.ai (not LeadKart)  
 **Primary:** Indigo `#3F51B5`  
+**Brand accent:** Orange-red gradient `#FF4500 → #FF8C00` (logo / brand moments)  
 **WhatsApp green:** `#25D366` / `#00A884` (only for WA-specific UI)  
 **Facebook blue:** `#1877F2`  
 **Fonts:** Poppins (regular, medium, semiBold, bold)

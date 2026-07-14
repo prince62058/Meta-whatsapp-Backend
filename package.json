@@ -1,7 +1,7 @@
 {
-  "name": "server",
+  "name": "marketingkart-backend",
   "version": "1.0.0",
-  "description": "My Node.js application",
+  "description": "MarketingKart.ai — Node.js/Express backend API",
   "main": "src/server.js",
   "scripts": {
     "start": "nodemon"
