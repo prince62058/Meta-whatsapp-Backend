@@ -11,7 +11,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import Toast from 'react-native-toast-message';
 import {COLORS, FONTS, SIZES, SHADOWS} from '../../../theme';
-import {MOCK_WALLET} from '../mockData';
+import {MOCK_WALLET} from '../../../utils/mockData';
 
 const QUICK_CHIPS = [500, 1000, 2000, 5000];
 

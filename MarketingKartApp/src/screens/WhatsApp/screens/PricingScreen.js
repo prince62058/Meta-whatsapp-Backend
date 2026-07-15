@@ -10,7 +10,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import Toast from 'react-native-toast-message';
 import {COLORS, FONTS, SIZES, SHADOWS} from '../../../theme';
-import {MOCK_PLANS, MOCK_WALLET} from '../mockData';
+import {MOCK_PLANS, MOCK_WALLET} from '../../../utils/mockData';
 
 function PlanCard({plan, walletBalance, onBuy}) {
   return (

@@ -17,7 +17,7 @@ import {
 import {SafeAreaView} from 'react-native-safe-area-context';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {COLORS, FONTS, SIZES, SHADOWS} from '../../../theme';
-import {MOCK_MESSAGES} from '../mockData';
+import {MOCK_MESSAGES} from '../../../utils/mockData';
 
 function TickIcon({status}) {
   if (status === 'sent') {

@@ -17,7 +17,7 @@ import {SafeAreaView} from 'react-native-safe-area-context';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {COLORS, FONTS, SIZES, SHADOWS} from '../../../theme';
 import {ChatSkeletonRow} from '../../../components/common/SkeletonCard';
-import {MOCK_CONVERSATIONS} from '../mockData';
+import {MOCK_CONVERSATIONS} from '../../../utils/mockData';
 
 function getInitials(name) {
   const parts = name.trim().split(' ');

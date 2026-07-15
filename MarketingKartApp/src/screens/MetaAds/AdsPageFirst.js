@@ -15,7 +15,7 @@ import {
 import LinearGradient from 'react-native-linear-gradient';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {COLORS, FONTS, SIZES, SHADOWS} from '../../theme';
-import {MOCK_AD_PLANS} from './mockData';
+import {MOCK_AD_PLANS} from '../../utils/mockData';
 
 const DAILY_FLOOR = 250;
 

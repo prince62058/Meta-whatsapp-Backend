@@ -11,7 +11,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import Toast from 'react-native-toast-message';
 import {COLORS, FONTS, SIZES, SHADOWS} from '../../../theme';
-import {MOCK_TICKETS} from '../mockData';
+import {MOCK_TICKETS} from '../../../utils/mockData';
 
 const CATEGORIES = ['TRANSACTION', 'TECHNICAL', 'PLAN', 'CALLBACK', 'GENERAL'];
 const PRIORITIES = ['HIGH', 'MEDIUM', 'LOW'];

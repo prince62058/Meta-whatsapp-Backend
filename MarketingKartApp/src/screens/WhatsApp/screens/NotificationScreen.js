@@ -8,7 +8,7 @@ import {
 import {SafeAreaView} from 'react-native-safe-area-context';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {COLORS, FONTS, SIZES, SHADOWS} from '../../../theme';
-import {MOCK_NOTIFICATIONS} from '../mockData';
+import {MOCK_NOTIFICATIONS} from '../../../utils/mockData';
 
 const TYPE_META = {
   success: {icon: 'checkmark-circle', color: COLORS.success, bg: COLORS.successBg},

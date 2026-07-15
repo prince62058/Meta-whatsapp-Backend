@@ -19,7 +19,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import Toast from 'react-native-toast-message';
 import DocumentPicker from 'react-native-document-picker';
 import {COLORS, FONTS, SIZES, SHADOWS} from '../../../theme';
-import {MOCK_CONTACTS} from '../mockData';
+import {MOCK_CONTACTS} from '../../../utils/mockData';
 
 function getInitials(name) {
   const parts = name.trim().split(' ');

@@ -10,7 +10,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {COLORS, FONTS, SIZES, SHADOWS} from '../../../theme';
-import {MOCK_PROFILE} from '../mockData';
+import {MOCK_PROFILE} from '../../../utils/mockData';
 
 function StatChip({icon, value, label, color}) {
   return (

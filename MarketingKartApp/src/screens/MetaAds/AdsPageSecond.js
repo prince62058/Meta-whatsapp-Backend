@@ -19,7 +19,7 @@ import {
 import LinearGradient from 'react-native-linear-gradient';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {COLORS, FONTS, SIZES, SHADOWS} from '../../theme';
-import {MOCK_INTERESTS} from './mockData';
+import {MOCK_INTERESTS} from '../../utils/mockData';
 
 const AD_TYPES_WA = ['WhatsApp Ads', 'Call Ads'];
 const AD_TYPES_APP = ['App Install Ads'];

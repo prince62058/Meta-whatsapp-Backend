@@ -19,7 +19,7 @@ import {
 import LinearGradient from 'react-native-linear-gradient';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {COLORS, FONTS, SIZES, SHADOWS} from '../../theme';
-import {MOCK_LOCATIONS} from './mockData';
+import {MOCK_LOCATIONS} from '../../utils/mockData';
 
 const DAILY_FLOOR = 250;
 const WALLET_BALANCE = 2450;

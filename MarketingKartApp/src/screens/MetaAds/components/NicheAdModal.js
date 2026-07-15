@@ -15,7 +15,7 @@ import {
 import LinearGradient from 'react-native-linear-gradient';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {COLORS, FONTS, SIZES, SHADOWS} from '../../../theme';
-import {MOCK_NICHES, MOCK_AD_PLANS} from '../mockData';
+import {MOCK_NICHES, MOCK_AD_PLANS} from '../../utils/mockData';
 
 // ─── Steps ───────────────────────────────────────────────────
 // 0 = Niche grid
